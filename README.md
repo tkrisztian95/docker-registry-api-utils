@@ -1,6 +1,9 @@
 # docker-registry-api-utils
 Simple CLI Python app that can help you to get more out form your private remote Docker registry's APIs.
 
+Links:
+- https://docs.docker.com/registry/spec/api/
+
 ## Usage
 Install requirements: `pip install -r requirements.txt`
 
