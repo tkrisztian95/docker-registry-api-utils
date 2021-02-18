@@ -2,10 +2,22 @@
 Simple CLI Python app that can help you to get more out form your private remote Docker registry's APIs.
 
 ## Usage
-Run command: `python main.py [OPTIONS] COMMAND [ARGS]...`
+Install requirements: `pip install -r requirements.txt`
+
+Run with command: `python main.py [OPTIONS] COMMAND [ARGS]...`
 
 ## Commands
 - `find-tags <repository> -d <digest>` | List all tags that point at a specific digest.
+
+## Config
+Create your own `.env` file
+```
+$ touch .env   # create a new .env file
+$ nano .env    # open the .env file in the nano text editor
+
+# Add or edit line
+REGISTRY_URL=http://registry:5000
+```
 
 ## Example
 
